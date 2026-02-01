@@ -1,0 +1,36 @@
+# IDE Configuration Files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Build & Compilation
+*.class
+*.jar
+*.war
+target/
+build/
+out/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor Backups
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# Keep only Main.java and README.md in each problem folder
+# This is enforced by not ignoring them explicitly below
+
+# Ignore all .iml files even if there are any new ones
+**/*.iml
+
+# IntelliJ IDEA
+**/.idea/
+
+# Compiled class files in src directories
+**/src/**/*.class
