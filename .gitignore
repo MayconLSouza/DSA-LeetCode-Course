@@ -26,6 +26,13 @@ Thumbs.db
 # Keep only Main.java and README.md in each problem folder
 # This is enforced by not ignoring them explicitly below
 
+# Ignore .github folder
+.github/
+**/.github/
+
+# Ignore .gitignore files in exercise folders
+**/.gitignore
+
 # Ignore all .iml files even if there are any new ones
 **/*.iml
 
